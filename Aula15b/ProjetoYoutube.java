@@ -11,7 +11,13 @@ public class ProjetoYoutube {
         g[0] = new Gafanhoto("Galileu", 22, "Masculino", "Galilei");
         g[1] = new Gafanhoto("Jubileia", 30, "Feminino", "JuJu");
 
-       Visualizacao vis = new Visualizacao(g[0], v[1]);
-       System.out.println(vis.toString());
+       Visualizacao vis[] = new Visualizacao[5];
+       vis[0] = new Visualizacao(g[0], v[2]); //Galileu assiste nodejs
+       vis[0].avaliar();
+       System.out.println(vis[0].toString());
+
+       vis[1] = new Visualizacao(g[0], v[1]); // Galileu assiste flutter
+       vis[0].avaliar(87.0f);
+       System.out.println(vis[0].toString());
     }
 }
