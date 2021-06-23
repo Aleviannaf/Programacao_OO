@@ -19,5 +19,8 @@ public class ProjetoYoutube {
        vis[1] = new Visualizacao(g[0], v[1]); // Galileu assiste flutter
        vis[0].avaliar(87.0f);
        System.out.println(vis[0].toString());
+       
+        System.out.println("Rafael é gay");
+
     }
 }
