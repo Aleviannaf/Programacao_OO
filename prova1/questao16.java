@@ -5,15 +5,18 @@ import java.util.Scanner;
 
 public class questao16 {
   public static void main(String[] args) {
-    int natural, d1, d2, d3;
+    int natural, digito1, digito2, digito3;
     Scanner sc= new Scanner(System.in);
     System.out.print("Digite um número com 3 dígitos: ");
     natural = sc.nextInt();
 
-    d1 = natural/ 100;
-   // System.out.println(d1);
-    d2 = natural / 10;
-    System.out.println(d2);
+    digito1 = natural/ 100;
+    digito2 = (natural%100)/10;
+    digito3 = (natural % 100)%10;
+
+    System.out.println("O numero "+natural+" é composto por "+digito1+ 
+    " (Centenas), "+digito2+" (Dezenas), "+digito3+" (Unidades)");
+   
   }
   
 }

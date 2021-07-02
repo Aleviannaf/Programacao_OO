@@ -1,4 +1,5 @@
 package prova1;
+/*Construa um programa em Java que introduza dois números inteiros, associados às notas de duas disciplinas de um aluno, calcule a média aritmética destas notas e depois a mostre. (1 ponto).*/
 
 import java.util.Scanner;
 

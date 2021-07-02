@@ -1,6 +1,6 @@
 package aula9b;
 
-public class Livro implements Publicação {
+public class Livro implements Publicacao {
     private String titulo;
     private String autor;
     private int totPaginas;

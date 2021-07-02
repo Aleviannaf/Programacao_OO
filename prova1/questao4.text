@@ -1,0 +1,7 @@
+4.	Coloque parênteses nas seguintes expressões indicando a ordem de execução das operações nelas incluídas: (1 ponto).
+a) x < 15 || !y > 0
+R= ( (x < 15) || (!(y > 0)) )
+
+b) x || y && !z
+R= ( (x || y) && (!z))
+
