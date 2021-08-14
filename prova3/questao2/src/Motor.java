@@ -4,10 +4,10 @@ public class Motor {
 
   
   public String imprimir() {
-    return "Motor [numCilindro=" + numCilindro + ", potencia=" + potencia + "]";
+    return "Motor \n[Cilindro=" + numCilindro + ", \nPotencia=" + potencia + "]";
   }
 
-  //utilizei set para aplicação dos conceitos de poo
+  
   public void leitura(int cilindro, int potencia){
     this.setNumCilindro(cilindro);
     this.setPotencia(potencia);

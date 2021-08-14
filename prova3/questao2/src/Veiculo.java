@@ -1,12 +1,10 @@
 public class Veiculo {
   public static void main(String[] args) {
-    Motor bmw = new Motor();
+    Motor ferrari = new Motor();
 
-    System.out.println(bmw.imprimir());
-    
-
-    bmw.leitura(2, 10);
-    System.out.println(bmw.imprimir());
+    System.out.println(ferrari.imprimir());
+    ferrari.leitura(5, 15);
+    System.out.println(ferrari.imprimir());
     
   }
 }

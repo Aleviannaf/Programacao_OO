@@ -22,12 +22,12 @@ public class ContaEmBanco {
 
   
   public String extrato() {
-    return "Conta em Banco [nome do cliente= " + nomeCliente + ", saldo= " + saldo + "]";
+    return "Conta em Banco \n[nome do cliente= " + nomeCliente + ",\n saldo= " + saldo + "]\n";
   }
 
   public void sacar(float valor){
-    if(this.getSaldo()>0 && this.getSaldo()>saldo){
-      this.setSaldo(this.getSaldo() - saldo);
+    if(this.getSaldo()>0 && this.getSaldo()>valor){
+      this.setSaldo(this.getSaldo() - valor);
     }
   }
 
@@ -53,6 +53,5 @@ public class ContaEmBanco {
   public float getSaldo() {
     return saldo;
   }
-  
   
 }
